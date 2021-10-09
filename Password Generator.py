@@ -9,6 +9,6 @@ for n in range(number):
     password =''
     for i in range(length):
         password += random.choice(chars)
-    print( "Ваш пароль: " + password)
+    print( 'Ваш пароль: ' + password)
 
 input('Нажмите Enter для выхода\n')
